@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>The Best Movie</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'The best movie is: ' + ${BestMovie}" />
+<a href="bestMovie">Find the best Movie!</a>
+<br/>
+<a href="voteForBestMovieForm">Vote for your favorite movie!</a>
+<br/>
+<a href="addMovieForm">Add a movie</a>
+</body>
+</html>
